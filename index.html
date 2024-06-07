@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home-Bakery</title>
+  <!-- animation -->
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <!-- favicon icon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/logo/logo.png">
+  <!-- icons -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <!-- search-box -->
+  <link rel="stylesheet" href="assets/css/search-box.css">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="hidden">
+
+  <!-- loader -->
+  <div class="loading-area">
+    <div class="loader"></div>
+  </div>
+  <!-- header -->
+  <header class="position-absolute w-100">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h2 class="text-white ">Royal <img src="assets/images/logo/logo.png" alt="logo">Bakers</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="dropdown">
+                  <a class="btn dropdown-toggle text-white" href="index.html" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Home
+                  </a>
+                  <ul class="dropdown-menu px-2">
+                      <li><a class="dropdown-item" href="index.html">Home One</a></li>
+                      <li><a class="dropdown-item" href="index.html">Home Two</a></li>
+                      
+                  </ul>
+              </div>
+          </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="btn dropdown-toggle text-white ms-3" href="index.html" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Pages
+                </a>
+
+                <ul class="dropdown-menu px-2">
+                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                    <li><a class="dropdown-item" href="services.html">Services</a></li>
+                    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold text-white ms-3" aria-current="page" href="#fea">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold text-white ms-3" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold text-white ms-3" aria-current="page" href="gallery.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold text-white ms-3" aria-current="page" href="contant.html">Contact</a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-magnifying-glass me-5 text-white "></i>
+          <div class="button ">
+            <a href="javascript:void(0)"
+              class="text-uppercase text-decoration-none align-items-center text-white  px-5 rounded fw-semibold d-flex py-2">order
+              online</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- banner -->
+    <section class="banner position-relative ">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000"
+            style="background-image: url(./assets/images/banner/slider-1.jpg); height: 1030px; width: 100%;object-fit: cover;">
+            <div class="container">
+              <div class="d-flex justify-content-center align-content-center">
+                <div class="banner-con text-center">
+                  <img src="assets/images/banner/slider-ic.png" alt="" class="mb-3 ">
+                  <p class="text-uppercase text-white fs-1 fw-bold m-0">Cake for Later Cake</p>
+                  <p class="text-uppercase text-white fs-1 fw-bold m-0">as a way of Life</p>
+                  <div class="button1 mt-2">
+                    <a href="javascript:void(0)" class="text-uppercase text-decoration-none fw-semibold">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000"
+            style="background-image: url(./assets/images/banner/slider-2.jpg);height: 1030px; width: 100%;object-fit: cover; ">
+            <div class="d-flex justify-content-center align-items-center ">
+              <div class="banner-con text-center">
+                <img src="assets/images/banner/slider-ic.png" alt="" class="mb-3">
+                <p class="text-uppercase text-white fs-1 fw-bold m-0">Cake for Later Cake</p>
+                <p class="text-uppercase text-white fs-1 fw-bold m-0">as a way of Life</p>
+                <div class="button1 mt-2">
+                  <a href="javascript:void(0)" class="text-uppercase text-decoration-none fw-semibold">Read More</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item" data-bs-interval="3000"
+            style="background-image: url(./assets/images/banner/slider-3.jpg); height: 1030px; width: 100%;object-fit: cover;">
+            <div class="d-flex justify-content-center align-items-center ">
+              <div class="banner-con text-center">
+                <img src="assets/images/banner/slider-ic.png" alt="" class="mb-3">
+                <p class="text-uppercase text-white fs-1 fw-bold m-0">Cake for Later Cake</p>
+                <p class="text-uppercase text-white fs-1 fw-bold m-0">as a way of Life</p>
+                <div class="button1 mt-2">
+                  <a href="javascript:void(0)" class="text-uppercase text-decoration-none fw-semibold">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="" aria-hidden="true"><i
+              class="fa-solid fa-caret-left border-1 p-3 border-white border"></i></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="" aria-hidden="true"><i
+              class="fa-solid fa-caret-right border-1 p-3 border-white border"></i></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="pt-73 ">
+      <div class="container d-flex ">
+        <div class="col-6">
+          <img src="assets/images/about/welcome.png" alt="welcome" data-aos="fade-right" data-aos-duration="1200"
+            data-aos-easing="linear">
+        </div>
+        <div class="col-6 pt-5 pb-3 ps-3 pe-3 ">
+          <div class="welcome-header" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="linear">
+            <h5 class="pe-3 fw-bold d-inline ">30</h5>
+            <span class="display-6 fw-semibold ">Years Of Experience</span>
+          </div>
+          <div class="welcome-content mt-5" data-aos="fade-up" data-aos-duration="1200">
+            <h3 class="display-5">About Us</h3>
+            <h5 class="mt-3 fw-bolder text-uppercase ">Our story</h5>
+            <img src="assets/images/about/section-seprator-1.png" class="my-4" alt="">
+            <p class="mb-3 lh-base">The day for a three hour tour a three hour tour then one day he was shooting <br>
+              at some food and up through the ground came a oil that is its a beautiful day <br>
+              Got a dream and we just know now we are gonna make our dream come true <br>
+              so get a witch is shawl on a broomstick you can crawl on were gonna pay.</p>
+            <div class="button1 mt-5">
+              <a href="services.html" class="text-uppercase text-decoration-none fw-semibold">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- festival -->
+    <section class="festival">
+      <div class="container d-flex align-items-center justify-content-center">
+        <div class="festival-detail-tab ">
+          <div class="tab-content">
+            <div class="festial-content bg-white position-relative" data-aos="zoom-in-up" data-aos-duration="500"
+              data-aos-easing="linear">
+              <h5 class="fw-semibold text-uppercase ">Cake Festival</h5>
+              <img src="assets/images/about/section-seprator-1.png" alt="">
+              <p class="fs-6">The day for a three hour tour a three hour tour then one day he was <br>
+                shooting at some food and up through the ground came a oil that is <br>
+                its a beautiful day got a dream true.
+              </p>
+              <div class="button1">
+                <a href="javascript:void(0)" class="text-uppercase text-decoration-none fw-semibold">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- <ul class="nav nav-tabs justify-content-center">
+            <li><a href="javascript:void(0)">
+                <i><img src="assets/images/festival/festival-ic-1.png" alt=""></i>partycakes
+              </a>
+            </li>
+            <li><a href="javascript:void(0)">
+                <i><img src="assets/images/festival/festival-ic-2.png" alt=""></i>softcakes
+              </a>
+            </li>
+            <li><a href="javascript:void(0)">
+                <i><img src="assets/images/festival/festival-ic-3.png" alt=""></i>cupcakes
+              </a>
+            </li>
+            <li><a href="javascript:void(0)">
+                <i><img src="assets/images/festival/festival-ic-4.png" alt=""></i>berrycakes
+              </a>
+            </li>
+            <li><a href="javascript:void(0)">
+                <i><img src="assets/images/festival/festival-ic-5.png" alt=""></i>nutcake
+              </a>
+            </li>
+          </ul> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- menu -->
+    <section class="py-73 menu" id="fea">
+      <div class=" d-flex justify-content-center mb-5 ">
+        <div class=" menu-header mt-4" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+          <h3 class="display-5 mb-1 ">Our Menu</h3>
+          <h5 class="fw-bold text-uppercase ">CREAMY DISHES</h5>
+          <img src="assets/images/menu/section-seprator.png" alt="" class="my-4">
+          <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up <br>
+            through the ground came a oil that is its a beautiful day.</p>
+        </div>
+      </div>
+      <div class="container d-flex flex-wrap">
+        <div class="row">
+          <div class="col-6">
+            <div class="menu-box position-relative" data-aos="fade-right" data-aos-duration="1000"
+              data-aos-easing="linear" style="padding: 60px 45px 50px 330px; background-color: #fafafa;">
+              <img src="assets/images/menu/menu-1.png" alt="" class="position-absolute" style="left: 0; top: 0;">
+              <h3 class="mt-0 text-black text-uppercase fw-semibold" style="margin-bottom: 10px; font-size: 15px;">
+                CHOCOLATE FLASH
+                <span class="fs-6" style="letter-spacing: 0.64px;float: right;">$20.00</span>
+              </h3>
+              <p>The day he wane day he was shooting at some food and up through the ground.</p>
+              <a href="services.html" class="fw-bold text-uppercase d-inline-block text-decoration-none">Order
+                Now</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="menu-box position-relative" data-aos="fade-left" data-aos-duration="1000"
+              data-aos-easing="linear" style="padding: 60px 45px 50px 330px; background-color: #fafafa;">
+              <img src="assets/images/menu/menu-2.png" alt="" class="position-absolute" style="left: 0; top: 0;">
+              <h3 class="mt-0 text-black text-uppercase fw-semibold" style="margin-bottom: 10px; font-size: 15px;">ROSE
+                CREAMY
+                <span class="fs-6" style="letter-spacing: 0.64px;float: right;">$25.00</span>
+              </h3>
+              <p>The day he wane day he was shooting at some food and up through the ground.</p>
+              <a href="services.html" class="fw-bold text-uppercase d-inline-block text-decoration-none">Order
+                Now</a>
+            </div>
+          </div>
+          <div class="col-6 mt-4">
+            <div class="menu-box position-relative" data-aos="flip-left" data-aos-duration="600"
+              data-aos-easing="linear" style="padding: 60px 45px 50px 330px; background-color: #fafafa;">
+              <img src="assets/images/menu/menu-3.png" alt="" class="position-absolute" style="left: 0; top: 0;">
+              <h3 class="mt-0 text-black text-uppercase fw-semibold" style="margin-bottom: 10px; font-size: 15px;">
+                VELVET CAKE
+                <span class="fs-6" style="letter-spacing: 0.64px;float: right;">$32.00</span>
+              </h3>
+              <p>The day he wane day he was shooting at some food and up through the ground.</p>
+              <a href="services.html" class="fw-bold text-uppercase d-inline-block text-decoration-none">Order
+                Now</a>
+            </div>
+          </div>
+          <div class="col-6 mt-4">
+            <div class="menu-box position-relative" data-aos="flip-right" data-aos-duration="600"
+              data-aos-easing="linear" style="padding: 60px 45px 50px 330px; background-color: #fafafa;">
+              <img src="assets/images/menu/menu-4.png" alt="" class="position-absolute" style="left: 0; top: 0;">
+              <h3 class="mt-0 text-black text-uppercase fw-semibold" style="margin-bottom: 10px; font-size: 15px;">
+                FLOWERED CAKE
+                <span class="fs-6" style="letter-spacing: 0.64px;float: right;">$38.00</span>
+              </h3>
+              <p>The day he wane day he was shooting at some food and up through the ground.</p>
+              <a href="services.html" class="fw-bold text-uppercase d-inline-block text-decoration-none">Order
+                Now</a>
+            </div>
+          </div>
+          <div class="col-6 mt-4">
+            <div class="menu-box position-relative" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear"
+              style="padding: 60px 45px 50px 330px; background-color: #fafafa;">
+              <img src="assets/images/menu/menu-5.png" alt="" class="position-absolute" style="left: 0; top: 0;">
+              <h3 class="mt-0 text-black text-uppercase fw-semibold" style="margin-bottom: 10px; font-size: 15px;">
+                ROSEBERRY CAKE
+                <span class="fs-6" style="letter-spacing: 0.64px;float: right;">$48.00</span>
+              </h3>
+              <p>The day he wane day he was shooting at some food and up through the ground.</p>
+              <a href="services.html" class="fw-bold text-uppercase d-inline-block text-decoration-none">Order
+                Now</a>
+            </div>
+          </div>
+          <div class="col-6 mt-4">
+            <div class="menu-box position-relative" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear"
+              style="padding: 60px 45px 50px 330px; background-color: #fafafa;">
+              <img src="assets/images/menu/menu-6.png" alt="" class="position-absolute" style="left: 0; top: 0;">
+              <h3 class="mt-0 text-black text-uppercase fw-semibold" style="margin-bottom: 10px; font-size: 15px;">
+                CHOCOLATE BERRY CAKE
+                <span class="fs-6" style="letter-spacing: 0.64px;float: right;">$54.00</span>
+              </h3>
+              <p>The day he wane day he was shooting at some food and up through the ground.</p>
+              <a href="services.html" class="fw-bold text-uppercase d-inline-block text-decoration-none">Order
+                Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- team -->
+    <section class="team">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <img src="assets/images/team/team.png" alt="" class="ps-5">
+                </div>
+                <div class="col-6">
+                  <div class="team-header" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear">
+                    <h3 class="display-5" style="margin: 20px 0px 10px;">Meet Our Team</h3>
+                    <h5 class="fw-bold text-uppercase text-white">CHEFS</h5>
+                    <img src="assets/images/team/section-seprator-1.png" alt="" style="margin: 28px 0px;">
+                    <p class="text-white" style="margin-bottom: 20px;">The day for a three hour tour a three hour tour
+                      then one day he was shooting <br>
+                      at some food and up through the ground came a oil that is its a beautiful day <br>
+                      Got a dream and we just know now we are gonna make our dream come true <br>
+                      so get a witch is shawl on a broomstick you can crawl on were gonna pay.
+                    </p>
+                  </div>
+                  <div class="team-content-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+                    <h5 class="fw-bold text-uppercase text-white fs-5"
+                      style="letter-spacing: 1.05px; margin-bottom: 12px;">Stefhen Richards</h5>
+                    <ul class="d-flex list-unstyled" style="margin-bottom: 20px;">
+                      <li><a href="#" title="Facebook"><i class="fa-brands fa-facebook-f me-3 text-white"></i></a></li>
+                      <li><a href="#" title="Twitter"><i class="fa-brands fa-twitter me-3 text-white"></i></a></li>
+                      <li><a href="#" title="Google-plus"><i class="fa-brands fa-google-plus-g me-3 text-white"></i></a>
+                      </li>
+                      <li><a href="#" title="linkedin"><i class="fa-brands fa-linkedin-in me-3 text-white"></i></a></li>
+                      <li><a href="#" title="instagram"><i class="fa-brands fa-instagram me-3 text-white"></i></a></li>
+                    </ul>
+                    <p style="margin-bottom: 10px;"><a href="javascript:void(0)"
+                        class="text-white text-decoration-none"><i class="fa-solid fa-envelope me-2"
+                          style="color: #59d4f0;"></i>info@domain.com</a></p>
+                    <p><a href="javascript:void(0)" class="text-white text-decoration-none"><i
+                          class="fa-solid fa-phone me-2" style="color: #59d4f0;"></i>Phone: 1-800-23-456-7890</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <img src="assets/images/team/team.png" alt="" class="ps-5">
+                </div>
+                <div class="col-6">
+                  <div class="team-header" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear">
+                    <h3 class="display-5" style="margin: 20px 0px 10px;">Meet Our Team</h3>
+                    <h5 class="fw-bold text-uppercase text-white">CHEFS</h5>
+                    <img src="assets/images/team/section-seprator-1.png" alt="" style="margin: 28px 0px;">
+                    <p class="text-white" style="margin-bottom: 20px;">The day for a three hour tour a three hour tour
+                      then one day he was shooting <br>
+                      at some food and up through the ground came a oil that is its a beautiful day <br>
+                      Got a dream and we just know now we are gonna make our dream come true <br>
+                      so get a witch is shawl on a broomstick you can crawl on were gonna pay.
+                    </p>
+                  </div>
+                  <div class="team-content-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+                    <h5 class="fw-bold text-uppercase text-white fs-5"
+                      style="letter-spacing: 1.05px; margin-bottom: 12px;">Stefhen Richards</h5>
+                    <ul class="d-flex list-unstyled" style="margin-bottom: 20px;">
+                      <li><a href="#" title="Facebook"><i class="fa-brands fa-facebook-f me-3 text-white"></i></a></li>
+                      <li><a href="#" title="Twitter"><i class="fa-brands fa-twitter me-3 text-white"></i></a></li>
+                      <li><a href="#" title="Google-plus"><i class="fa-brands fa-google-plus-g me-3 text-white"></i></a>
+                      </li>
+                      <li><a href="#" title="linkedin"><i class="fa-brands fa-linkedin-in me-3 text-white"></i></a></li>
+                      <li><a href="#" title="instagram"><i class="fa-brands fa-instagram me-3 text-white"></i></a></li>
+                    </ul>
+                    <p style="margin-bottom: 10px;"><a href="javascript:void(0)"
+                        class="text-white text-decoration-none"><i class="fa-solid fa-envelope me-2"
+                          style="color: #59d4f0;"></i>info@domain.com</a></p>
+                    <p><a href="javascript:void(0)" class="text-white text-decoration-none"><i
+                          class="fa-solid fa-phone me-2" style="color: #59d4f0;"></i>Phone: 1-800-23-456-7890</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <img src="assets/images/team/team.png" alt="" class="ps-5">
+                </div>
+                <div class="col-6">
+                  <div class="team-header" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear">
+                    <h3 class="display-5" style="margin: 20px 0px 10px;">Meet Our Team</h3>
+                    <h5 class="fw-bold text-uppercase text-white">CHEFS</h5>
+                    <img src="assets/images/team/section-seprator-1.png" alt="" style="margin: 28px 0px;">
+                    <p class="text-white" style="margin-bottom: 20px;">The day for a three hour tour a three hour tour
+                      then one day he was shooting <br>
+                      at some food and up through the ground came a oil that is its a beautiful day <br>
+                      Got a dream and we just know now we are gonna make our dream come true <br>
+                      so get a witch is shawl on a broomstick you can crawl on were gonna pay.
+                    </p>
+                  </div>
+                  <div class="team-content-info" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+                    <h5 class="fw-bold text-uppercase text-white fs-5"
+                      style="letter-spacing: 1.05px; margin-bottom: 12px;">Stefhen Richards</h5>
+                    <ul class="d-flex list-unstyled" style="margin-bottom: 20px;">
+                      <li><a href="#" title="Facebook"><i class="fa-brands fa-facebook-f me-3 text-white"></i></a></li>
+                      <li><a href="#" title="Twitter"><i class="fa-brands fa-twitter me-3 text-white"></i></a></li>
+                      <li><a href="#" title="Google-plus"><i class="fa-brands fa-google-plus-g me-3 text-white"></i></a>
+                      </li>
+                      <li><a href="#" title="linkedin"><i class="fa-brands fa-linkedin-in me-3 text-white"></i></a></li>
+                      <li><a href="#" title="instagram"><i class="fa-brands fa-instagram me-3 text-white"></i></a></li>
+                    </ul>
+                    <p style="margin-bottom: 10px;"><a href="javascript:void(0)"
+                        class="text-white text-decoration-none"><i class="fa-solid fa-envelope me-2"
+                          style="color: #59d4f0;"></i>info@domain.com</a></p>
+                    <p><a href="javascript:void(0)" class="text-white text-decoration-none"><i
+                          class="fa-solid fa-phone me-2" style="color: #59d4f0;"></i>Phone: 1-800-23-456-7890</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="" aria-hidden="true"><i
+            class="fa-solid fa-caret-left border-1 p-3 border-white border"></i></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="" aria-hidden="true"><i
+            class="fa-solid fa-caret-right border-1 p-3 border-white border"></i></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- order -->
+    <section class="order position-relative">
+      <div class="pt-73"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-7 py-3">
+            <div class="order-header" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+              <h3 class="mt-5 display-5">Choose your Flavour</h3>
+              <h5 class="mt-3 text-uppercase fw-bold">Order Online</h5>
+              <img src="assets/images/order/section-seprator.png" class="my-5" alt="">
+              <p class="mt-2">The day for a three hour tour a three hour tour then one day he was shooting at some food
+                <br>
+                and up through the ground came a oil that is its a beautiful day.
+              </p>
+            </div>
+            <form action="" class="d-flex flex-wrap" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-easing="linear">
+              <div class="col-6 mt-3 p-3">
+                <input type="text" class="form-control" placeholder="Name *">
+              </div>
+              <div class="col-6 mt-3 p-3">
+                <input type="text" class="form-control" placeholder="Phone Number *">
+              </div>
+              <div class="col-6 mt-4 p-3">
+                <select style="padding:13px 240px 13px 5px;">
+                  <option>FLAVOURS</option>
+                  <option>FLAVOURS</option>
+                  <option>FLAVOURS</option>
+                  <option>FLAVOURS</option>
+                </select>
+              </div>
+              <div class="col-6 mt-4 p-3">
+                <input type="text" class="form-control" placeholder="Your Address *">
+              </div>
+            </form>
+            <div class="button1 mt-5 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1100"
+              data-aos-easing="linear">
+              <a href="services.html" class="text-uppercase text-decoration-none fw-semibold">Order now</a>
+            </div>
+            <p class="or fw-bold mt-5 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-duration="1100"
+              data-aos-easing="linear">FOR MORE QUERIES CALL US AT :<a href="tel:1-800-23-456-7890"
+                class="text-decoration-none" title="1-800-23-456-7890" style="color: #59D4F0;"> 1-800-23-456-7890</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="img-right position-absolute ">
+        <img src="assets/images/order/order-online.png" alt="">
+      </div>
+    </section>
+
+    <!-- counter -->
+    <section class="counter">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-3">
+            <div class="counter-box">
+              <h3 class="d-inline-block mt-0 position-relative"><span class="fw-semibold">1500</span></h3>
+              <i class="fa-regular fa-face-smile"></i>
+              <p class="fw-semibold text-uppercase m-0">HAPPY CLIENTS</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="counter-box">
+              <h3 class="d-inline-block mt-0 position-relative"><span class="fw-semibold">550</span></h3>
+              <i class="fa-solid fa-mug-saucer"></i>
+              <p class="fw-semibold text-uppercase m-0">COFFEE CUPS</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="counter-box">
+              <h3 class="d-inline-block mt-0 position-relative"><span class="fw-semibold">750</span></h3>
+              <i class="fa-solid fa-hourglass"></i>
+              <p class="fw-semibold text-uppercase m-0">WORKED HOURS</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="counter-box">
+              <h3 class="d-inline-block mt-0 position-relative"><span class="fw-semibold">110</span></h3>
+              <i class="fa-solid fa-house-chimney"></i>
+              <p class="fw-semibold text-uppercase m-0">BRANCHES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+    <section class="blog py-73">
+      <div class="blog-header" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+        <h3 class="display-5">Latest Post</h3>
+        <h5 class="fw-bold text-uppercase">Our Blog</h5>
+        <img src="assets/images/blog/section-seprator.png" alt="" class="my-4">
+        <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up through <br>
+          the ground came a oil that is its a beautiful day.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="entry-cover" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+              <a href="javascript:void(0)">
+                <img src="assets/images/blog/latestblog-1.jpg" alt="" class="mt-5 w-100">
+              </a>
+            </div>
+            <div class="post-content mt-2 pb-4" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+              <div class="latest-blog-content position-relative">
+                <div class="post-date position-absolute text-center">
+                  <span class="d-block fw-bold text-black fs-2">25</span>
+                  <span class="text-uppercase fs-5 d-block fw-semibold" style="margin-top: -8px;">Jan</span>
+                </div>
+                <h3 class="entry-title fs-6 text-uppercase" style="margin-top: 5px;"><a href="#"
+                    class="text-decoration-none text-black">creamy waves shift</a></h3>
+                <div class="entry-meta">
+                  <a href="javascript:void(0)" class="text-decoration-none">
+                    <i class="fa-regular fa-heart" style="padding-right: 5px;"></i>
+                    10 Likes
+                  </a>
+                  <a href="javascript:void(0)" class="text-decoration-none ms-2">
+                    <i class="fa-regular fa-comment-dots" style="padding-right: 5px;"></i>
+                    15 Comments
+                  </a>
+                  <a href="javascript:void(0)" class="text-decoration-none ms-2">Admin</a>
+                </div>
+              </div>
+              <div class="recent-content" style="padding: 0px 20px;">
+                <div class="entry-content">
+                  <p class="fs-6" style="line-height: 26px; letter-spacing: 0.6px; margin: 20px 0px 10px;">The day he
+                    was shooting at some food and <br>
+                    up through the ground came a oil that is its a <br>
+                    beautiful day came a oil.</p>
+                </div>
+                <a href="javascript:void(0)" class=" text-decoration-none text-uppercase fw-bold">
+                  Read More<i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="entry-cover" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+              <a href="javascript:void(0)">
+                <img src="assets/images/blog/latestblog-2.jpg" alt="" class="mt-5 w-100">
+              </a>
+            </div>
+            <div class="post-content mt-2 pb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
+              <div class="latest-blog-content position-relative">
+                <div class="post-date position-absolute text-center">
+                  <span class="d-block fw-bold text-black fs-2">07</span>
+                  <span class="text-uppercase fs-5 d-block fw-semibold" style="margin-top: -8px;">Feb</span>
+                </div>
+                <h3 class="entry-title fs-6 text-uppercase" style="margin-top: 5px;"><a href="#"
+                    class="text-decoration-none text-black">the muppet show</a></h3>
+                <div class="entry-meta">
+                  <a href="javascript:void(0)" class="text-decoration-none">
+                    <i class="fa-regular fa-heart" style="padding-right: 5px;"></i>
+                    10 Likes
+                  </a>
+                  <a href="javascript:void(0)" class="text-decoration-none ms-2">
+                    <i class="fa-regular fa-comment-dots" style="padding-right: 5px;"></i>
+                    15 Comments
+                  </a>
+                  <a href="javascript:void(0)" class="text-decoration-none ms-2">Admin</a>
+                </div>
+              </div>
+              <div class="recent-content" style="padding: 0px 20px;">
+                <div class="entry-content">
+                  <p class="fs-6" style="line-height: 26px; letter-spacing: 0.6px; margin: 20px 0px 10px;">The day he
+                    was shooting at some food and <br>
+                    up through the ground came a oil that is its a <br>
+                    beautiful day came a oil.</p>
+                </div>
+                <a href="javascript:void(0)" class=" text-decoration-none text-uppercase fw-bold">
+                  Read More<i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="entry-cover" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+              <a href="javascript:void(0)">
+                <img src="assets/images/blog/latestblog-3.jpg" alt="" class="mt-5 w-100">
+              </a>
+            </div>
+            <div class="post-content mt-2 pb-4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+              <div class="latest-blog-content position-relative">
+                <div class="post-date position-absolute text-center">
+                  <span class="d-block fw-bold text-black fs-2">14</span>
+                  <span class="text-uppercase fs-5 d-block fw-semibold" style="margin-top: -8px;">Apr</span>
+                </div>
+                <h3 class="entry-title fs-6 text-uppercase" style="margin-top: 5px;"><a href="#"
+                    class="text-decoration-none text-black">deserve the cupcake</a></h3>
+                <div class="entry-meta">
+                  <a href="javascript:void(0)" class="text-decoration-none">
+                    <i class="fa-regular fa-heart" style="padding-right: 5px;"></i>
+                    10 Likes
+                  </a>
+                  <a href="javascript:void(0)" class="text-decoration-none ms-2">
+                    <i class="fa-regular fa-comment-dots" style="padding-right: 5px;"></i>
+                    15 Comments
+                  </a>
+                  <a href="javascript:void(0)" class="text-decoration-none ms-2">Admin</a>
+                </div>
+              </div>
+              <div class="recent-content" style="padding: 0px 20px;">
+                <div class="entry-content">
+                  <p class="fs-6" style="line-height: 26px; letter-spacing: 0.6px; margin: 20px 0px 10px;">The day he
+                    was shooting at some food and <br>
+                    up through the ground came a oil that is its a <br>
+                    beautiful day came a oil.</p>
+                </div>
+                <a href="javascript:void(0)" class=" text-decoration-none text-uppercase fw-bold">
+                  Read More<i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="button1 mt-5 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="800"
+            data-aos-easing="linear">
+            <a href="gallery.html" class="text-uppercase text-decoration-none fw-semibold">view all post</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- subscribe -->
+    <section class="subscribe" style="transform: translate(0 , 50%);">
+      <div class="container bg-warning py-4">
+        <div class="row">
+          <h5
+            class="subscribe.title col-5 text-center text-white fw-semibold text-uppercase text-center d-flex align-items-center justify-content-center"
+            style="margin-top: 18px;">subscribe to our newsletter</h5>
+          <form action="" class="col-7 d-flex">
+            <div class="col-9 p-3 position-relative">
+              <input type="text" placeholder="Your Email Here" name="email" class="bg-white p-3 border-0">
+              <i class="fa-regular fa-envelope fs-4 position-absolute "
+                style="top: 30px; right: 90px; color: #aaa;"></i>
+            </div>
+            <div class="col-3 py-3">
+              <input type="submit" name="subscribe" value="subscribe" class="button-last fw-bold">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="footer-main" style="background-color: #111111;padding: 100px 0px 45px; ">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="about-footer text-center" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
+            <h3 class="text-white">Royal <img src="assets/images/logo/logo.png" alt="">Bakers</h3>
+            <p class="mt-3">The day for a three hour tour a three hour <br>
+              tour then one day he was shooting at <br>
+              some food and up through the ground oil.
+            </p>
+            <a href="contant.html" title="Contact"
+              class="about-links text-uppercase border-1 border-white border">Contact</a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="about-footer text-center" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+            <h5 class="text-white text-uppercase fw-semibold" style="margin: 25px 0px 40px;">Order online</h5>
+            <p>The day for a three hour tour a three hour <br>
+              tour then one day he was shooting at <br>
+              some food and up through the ground oil.
+            </p>
+            <a href="services.html" title="Order Now" class="about-links order border-0">Order Now</a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="about-footer text-center" data-aos="fade-left" data-aos-duration="800" data-aos-easing="linear">
+            <h5 class="text-white text-uppercase fw-semibold" style="margin: 25px 0px 40px;">contact us today</h5>
+            <p>Call Us 666 777 888 OR 111 222 333 Send an
+              Email on contact@cakeshop.com Visit Us
+              123 Fake Street- London 12358 United
+              Kingdom
+            </p>
+            <ul>
+              <li class="ms-2 d-inline-block">
+                <a href="javascript:void(0)" class="fs-6 d-inline-block text-center">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="ms-2 d-inline-block">
+                <a href="javascript:void(0)" class="fs-6 d-inline-block text-center">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li class="ms-2 d-inline-block">
+                <a href="javascript:void(0)" class="fs-6 d-inline-block text-center">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="ms-2 d-inline-block">
+                <a href="javascript:void(0)" class="fs-6 d-inline-block text-center">
+                  <i class="fa-brands fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="bottom-footer" style="padding: 22px 0;background-color: #000000;">
+    <div class="container d-flex align-items-center ">
+      <div class="footer-copyright">
+        <p class="m-0">© Copyrights 2016 Royal Bakers. All Rights Reserved</p>
+      </div>
+      <div class="footer-breadcrumb ms-auto">
+        <ol class="breadcrumb m-0">
+          <li class="active">Home</li>
+          <li><a href="about.html" class="text-decoration-none">About</a></li>
+          <li><a href="services.html" class="text-decoration-none">Services</a></li>
+          <li><a href="javascript:void(0)" class="text-decoration-none">Portfolio</a></li>
+          <li><a href="gallery.html" class="text-decoration-none">Blog</a></li>
+          <li><a href="contant.html" class="text-decoration-none">Contact</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK-TO-TOP -->
+
+  <a href="#" class="back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <!-- bootstrap -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!-- animation -->
+  <script src="assets/js/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- jquery -->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+  <!-- <script>
+
+    // header-fixed
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            $("header").addClass("fixed-header");
+        }
+        else {
+            $("header").removeClass("fixed-header");
+        }
+    });
+</script> -->
+
+  <script>
+    // BACK-TO-TOP
+
+    $(".back-to-top").click(function () {
+      $("html").animate({ scrollTop: 0 });
+    });
+  </script>
+
+  <!-- loader -->
+  <script>
+    $(window).on('load', function () {
+        $('.loading-area').delay(2000).fadeOut('fast');
+        setTimeout(function () {
+            $("body").removeClass("hidden");
+        }, 2000)
+    })
+</script>
+
+</body>
+
+</html>
